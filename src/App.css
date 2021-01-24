@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+html, body, ul, li, p, input, label, select {
+  box-sizing: border-box;
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  letter-spacing: 0px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #516d7d;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.currency-box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: 400px;
+  justify-content: center;
+  width: 350px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.currency-logo {
+  height: 140px;
+  width: 140px;
+}
+
+.custom-select-wrap {
+  /* background-color: #bbcc44; */
+  display: flex;
+}
+
+.currency-box .custom-select-wrap:first-child {
+  /* flex: 1; */
+  /* padding: 0 0 30px 0; */
+}
+
+.currency-box h2 {
+  /* background-color: #bbcc44; */
+  /* color: #c2e8fc; */
+  color: #FFF;
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+}
+
+select {
+  background-color: #ffffff;
+  /* border: 1px solid #467160; */
+  border: none;
+  border-right: 1px solid #eaeaea;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #477087;
+  
+ font-weight: bold;
+ height: 45px;
+ text-align-last:center;
+  width: 60px;
+ /* for Firefox */ 
+ -moz-appearance: none; 
+  /* for Safari, Chrome, Opera */ 
+ -webkit-appearance: none; 
+} 
+  
+/* for IE10 */ 
+ select::-ms-expand { 
+  display: none; 
+}
+
+select:focus {
+  outline: none;
+}
+
+
+input {
+  background-color: #f1f1f1;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+  color: #666;
+  font-size: 16px;
+  height: 45px;
+  padding: 0 0 0 5px;
+  width: 294px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.display-currency {
+  color: #c2e8fc;
+  font-size: 12px;
+}
+
+#btn {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 360px;
+}
+
+#btn:focus {
+  outline: none;
+}
+
+#btn:active {
+  background: #597382;
+}
+
+#btn i {
+  margin: 0 5px 0 0;
 }
