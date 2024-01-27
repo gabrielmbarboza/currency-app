@@ -1,21 +1,21 @@
 .container {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
 
-  .currency-box {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    height: 400px;
-    justify-content: center;
-    width: 350px;
-  }
+.currency-box {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  height: 400px;
+  justify-content: center;
+  width: 350px;
+}
 
-  .currency-logo {
-    height: 140px;
-    width: 140px;
-  }
+.currency-logo {
+  height: 140px;
+  width: 140px;
+}

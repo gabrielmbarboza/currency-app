@@ -1,4 +1,4 @@
-# React Currency Converter
+# Currency Converter App
 
 > Frontend do projeto de conversão de moedas.
 

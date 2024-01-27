@@ -11,6 +11,7 @@ select {
   color: #477087;
   font-weight: bold;
   height: 45px;
+  text-align:center;
   text-align-last:center;
   width: 60px;
   /* for Firefox */
@@ -26,4 +27,8 @@ select::-ms-expand {
 
 select:focus {
   outline: none;
+}
+
+#currency-from:hover, #currency-to:hover, select:hover {
+  cursor: pointer;
 }
