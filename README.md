@@ -1,23 +1,29 @@
 # Currency Converter App
 
-> Frontend do projeto de conversão de moedas.
+> Currency Converter frontend project.
 
-Projeto React que exemplifica o uso da API de conversão de moedas em um projeto web.
-O projeto possuí como dependência a API, ao rodá-lo,  é necessário que a API esteja configurada.
+React project that exemplifies the use of the Currency Converter API in a web project.
+The project has the API as a dependency; to run it, the API must be configured.
 
-## Projeto
+![alt text](https://github.com/gabrielmbarboza/currency-app/blob/main/example.png?raw=true)
 
-O projeto foi criado com as seguintes tecnologias:
+## Project
+
+The project was created using the following technologies:
 
 * Docker
 * docker-compose
 * Node
 * React
 
-## Instalação
+## Installation
 
-**Usando Docker & docker-compose**
+**Using Docker and docker-compose**
 
-Inciando o projeto:
-`docker-compose up app`
+Building the project:
+`docker compose build`
+
+Initializing the project:
+`docker compose up`
+
 
